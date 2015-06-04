@@ -11,9 +11,13 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+Route::get('/', 'HomeController@index');
 
 Route::get('home', 'HomeController@index');
+
+Route::get('scada-monitoring', 'ProjectsController@scada');
+Route::get('dispatching', 'ProjectsController@dispatching');
+Route::get('room-readiness', 'ProjectsController@readiness');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
