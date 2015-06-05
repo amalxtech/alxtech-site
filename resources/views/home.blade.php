@@ -8,7 +8,7 @@
     </div>
 
     <h2 class="text-center" style="margin-top:-20px;">Our Projects</h2>
-    <p class="lead text-center">Here are the some unique projects.</p>
+    <p class="lead text-center">Here are some unique projects we have worked on.</p>
 
     <div class="row">
         <div class="col-sm-6 col-md-6">
