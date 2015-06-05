@@ -12,10 +12,15 @@ class ProjectsController extends Controller{
 
     public function dispatching()
     {
-        return view('projects.dispatching');
+        return view('projects.dispatch');
     }
 
     public function readiness()
+    {
+        return view('projects.readiness');
+    }
+
+    public function compsforkids()
     {
         return view('projects.readiness');
     }
